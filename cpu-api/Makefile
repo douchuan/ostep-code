@@ -1,5 +1,5 @@
 
-all: p1 p2 p3 p4
+all: p1 p2 p3 p4 p5 p6 p7
 
 clean:
 	rm -f p1 p2 p3 p4
@@ -16,3 +16,11 @@ p3: p3.c
 p4: p4.c
 	gcc -o p4 p4.c -Wall
 
+p5: p5.c
+	gcc -o p5 p5.c -Wall
+
+p6: p6.c
+	gcc -o p6 p6.c -Wall
+
+p7: p7.c
+	gcc -o p7 p7.c -Wall
