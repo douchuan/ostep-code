@@ -1,5 +1,5 @@
 
-all: p1 p2 p3 p4 p5 p6 p7
+all: p1 p2 p3 p4 c5_1 c5_2 c5_4
 
 clean:
 	rm -f p1 p2 p3 p4
@@ -16,11 +16,11 @@ p3: p3.c
 p4: p4.c
 	gcc -o p4 p4.c -Wall
 
-p5: p5.c
-	gcc -o p5 p5.c -Wall
+c5_1: chapter5_1.c
+	gcc -o c5_1 chapter5_1.c -Wall
 
-p6: p6.c
-	gcc -o p6 p6.c -Wall
+c5_2: chapter5_2.c
+	gcc -o c5_2 chapter5_2.c -Wall
 
-p7: p7.c
-	gcc -o p7 p7.c -Wall
+c5_4: chapter5_4.c
+	gcc -o c5_4 chapter5_4.c -Wall
